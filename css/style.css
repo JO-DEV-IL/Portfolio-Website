@@ -1,6 +1,10 @@
 /* GLOBAL CSS */
 @import url('https://fonts.googleapis.com/css2?family=Exo:wght@400;700&display=swap');
 
+/* @media (min-width: 900px) {
+    
+} */
+
 *{
     box-sizing: border-box;
     font-family: 'Exo', sans-serif;
@@ -15,6 +19,10 @@ ul{
 }
 li{
     float: right;
+    margin-top: 10px;
+}
+.line-height{
+    line-height: 35px;
 }
 
 /* STICKY NAVBAR */
@@ -22,7 +30,7 @@ li{
     overflow: hidden;
     background-color: #333;
 }
-#navbar a {
+#navbar a{
     float: left;
     display: block;
     color: #f2f2f2;
@@ -30,25 +38,26 @@ li{
     padding: 14px;
     text-decoration: none;
 }
-  
-.content {
+#navbar a:hover{
+    color: salmon;
+}
+.content{
     padding: 16px;
 }
-.sticky {
+.sticky{
     position: fixed;
     top: 0;
     width: 100%;
 }
-.sticky + .content {
+.sticky + .content{
     padding-top: 60px;
-} 
+}
 
 
 .main-title{
     display: flex;
     flex-wrap: wrap;
     padding: 100px;
-    height: 800px;
 }
 .main-title img{
     border-radius: 40%; 
@@ -87,59 +96,75 @@ li{
 
 .what-i-do{
     width: 100%;
-    height: 800px;
+    border: 2px solid black;
+    text-align: center;
 }
-.what-i-do button{
-    background-color: white;
-    border: 1px solid salmon;
-    color: black;
-    padding: 10px;
+.what-i-do-tools{
+    display: flex;
+    justify-content: space-evenly;
+}
+.square{
+    border: 2px solid salmon;
+    padding: 100px;
+    margin: 100px auto auto auto;
+    box-shadow: 5px 5px salmon;
+}
+
+
+.why-choose-me{
+    width: 100%;
+    border: 2px solid black;
+    text-align: center;
+}
+#javascriptBar, #htmlcssBar, #nodejsBar, #githubBar{
+    width: 100%;
+    background-color: antiquewhite;
+    padding: 25px;
+}
+  
+#myBar1, #myBar2, #myBar3, #myBar4{
+    width: 1%;
+    height: 30px;
+    background-color: salmon;
+}
+.why-choose-me button{
+    background-color: salmon;
+    border: none;
+    color: white;
+    padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     font-size: 16px;
     cursor: pointer;
     transition-duration: 0.4s;
-    margin: 10px;
-    width: 25%;
+    margin: 10px auto 10px auto;
 }
 
-
-
-.why-choose-me{
-    width: 100%;
-    height: 800px;
-}
-
-
-
-.grid-container{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(5, 1fr);
-    grid-column-gap: 50px;
-    grid-row-gap: 50px;
-    padding: 50px;
-}
-.grid-item{
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    padding: 135px;
-    font-size: 15px;
-    text-align: center;
-}
 
 .projects{
     width: 100%;
-    height: 800px;
+    border: 2px solid black;
+    text-align: center;
+}
+.project-squares div{
+    display: flex;
+}
+.project-squares .square{
+    padding: 150px;
 }
 
 
 .about-me{
     width: 100%;
     height: 800px;
+    border: 2px solid black;
+    text-align: center;
 }
 
 
 .contact-info{
     width: 100%;
     height: 800px;
+    border: 2px solid black;
+    text-align: center;
 }

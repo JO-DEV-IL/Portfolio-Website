@@ -21,30 +21,34 @@ li{
 #navbar{
     overflow: hidden;
     background-color: #333;
-    padding: 10px;
 }
-#navbar a{
+#navbar a {
+    float: left;
+    display: block;
     color: #f2f2f2;
-    padding: 10px;
+    text-align: center;
+    padding: 14px;
     text-decoration: none;
+}
+  
+.content {
+    padding: 16px;
 }
 .sticky {
     position: fixed;
     top: 0;
     width: 100%;
 }
-.top-nav{
-    font-size: 15px;
-}
-.email{
-    font-size: 20px;
-}
+.sticky + .content {
+    padding-top: 60px;
+} 
 
 
 .main-title{
     display: flex;
     flex-wrap: wrap;
     padding: 100px;
+    height: 800px;
 }
 .main-title img{
     border-radius: 40%; 

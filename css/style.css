@@ -24,6 +24,9 @@ li{
 .line-height{
     line-height: 35px;
 }
+section:not(.main-title,.main-nav){
+    height: 1200px;
+}
 
 /* STICKY NAVBAR */
 #navbar{

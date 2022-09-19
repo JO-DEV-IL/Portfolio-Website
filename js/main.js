@@ -11,27 +11,89 @@ function stickyNav() {
 }
 
 // PROGRESS BARS //
-let i = 0;
-function move() {
+function moveJs() {
+  let i = 0;
   if (i == 0) {
     i = 1;
-    let elem1 = document.getElementById("myBar1");
-    let elem2 = document.getElementById("myBar2");
-    let elem3 = document.getElementById("myBar3");
-    let elem4 = document.getElementById("myBar4");
+    let elem = document.getElementById("myBar1");
     let width = 1;
     let id = setInterval(frame, 10);
     function frame() {
-      if (width >= 100) {
+      if (width >= 50) {
         clearInterval(id);
         i = 0;
       } else {
         width++;
-        elem1.style.width = width + "%";
-        elem2.style.width = width + "%";
-        elem3.style.width = width + "%";
-        elem4.style.width = width + "%";
+        elem.style.width = width + "%";
       }
     }
   }
 }
+function moveHtml() {
+  let i = 0;
+  if (i == 0) {
+    i = 1;
+    let elem = document.getElementById("myBar2");
+    let width = 1;
+    let id = setInterval(frame, 10);
+    function frame() {
+      if (width >= 80) {
+        clearInterval(id);
+        i = 0;
+      } else {
+        width++;
+        elem.style.width = width + "%";
+      }
+    }
+  }
+}
+function moveNode() {
+  let i = 0;
+  if (i == 0) {
+    i = 1;
+    let elem = document.getElementById("myBar3");
+    let width = 1;
+    let id = setInterval(frame, 10);
+    function frame() {
+      if (width >= 25) {
+        clearInterval(id);
+        i = 0;
+      } else {
+        width++;
+        elem.style.width = width + "%";
+      }
+    }
+  }
+}
+function moveGit() {
+  let i = 0;
+  if (i == 0) {
+    i = 1;
+    let elem = document.getElementById("myBar4");
+    let width = 1;
+    let id = setInterval(frame, 10);
+    function frame() {
+      if (width >= 30) {
+        clearInterval(id);
+        i = 0;
+      } else {
+        width++;
+        elem.style.width = width + "%";
+      }
+    }
+  }
+}
+
+// OBSERVER FOR SKILLS SECTIONS TO RUN FUNCTIONS //
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      moveJs()
+      moveHtml()
+      moveNode()
+      moveGit()
+    }
+  });
+});
+
+observer.observe(document.querySelector('.why-choose-me'));

@@ -15,13 +15,18 @@ body{
     margin: auto;
     width: 100%;
 }
+
+/* Removes link bullet style */
 ul{
     list-style: none;
 }
+
+/* Makes navbar linear */
 li{
     display: inline-block;
 }
-li a:hover:not(.email){
+
+li a:hover{
     border-bottom: 2px solid salmon;
 }
 
@@ -29,11 +34,10 @@ li a:hover:not(.email){
 #navbar {
     overflow: hidden;
     background-color: #333;
+    padding: 14px;
 }
 #navbar a{
-    float: right;
     color: #f2f2f2;
-    text-align: center;
     padding: 14px;
     text-decoration: none;
 }

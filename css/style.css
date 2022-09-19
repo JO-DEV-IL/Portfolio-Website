@@ -15,30 +15,22 @@ body{
     margin: auto;
     width: 100%;
 }
-
-/* Removes link bullet style */
 ul{
     list-style: none;
 }
-
-/* Makes navbar linear */
 li{
-    display: inline-block;
-}
-
-li a:hover{
-    border-bottom: 2px solid salmon;
+    float: right;
 }
 
 /* STICKY NAVBAR */
-#navbar {
+#navbar{
     overflow: hidden;
     background-color: #333;
-    padding: 14px;
+    padding: 10px;
 }
 #navbar a{
     color: #f2f2f2;
-    padding: 14px;
+    padding: 10px;
     text-decoration: none;
 }
 .sticky {
@@ -129,7 +121,7 @@ li a:hover{
     text-align: center;
 }
 
-.what-i-daco button{
+.what-i-do button{
     background-color: white;
     border: 1px solid salmon;
     color: black;
@@ -141,14 +133,4 @@ li a:hover{
     transition-duration: 0.4s;
     margin: 10px;
     width: 25%;
-}
-#myProgress {
-    width: 90%;
-    background-color: darkgrey;
-}
-  
-#myBar {
-    width: 1%;
-    height: 30px;
-    background-color: salmon;
 }

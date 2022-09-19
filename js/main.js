@@ -1,7 +1,7 @@
 // STICKY NAVBAR //
 window.onscroll = function() {stickyNav()};
-var navbar = document.getElementById("navbar");
-var sticky = navbar.offsetTop;
+const navbar = document.getElementById("navbar");
+const sticky = navbar.offsetTop;
 function stickyNav() {
   if (window.pageYOffset >= sticky) {
     navbar.classList.add("sticky")
@@ -10,13 +10,13 @@ function stickyNav() {
   }
 }
 
-var i = 0;
+const i = 0;
 function move() {
   if (i == 0) {
     i = 1;
-    var elem = document.getElementById("myBar");
-    var width = 1;
-    var id = setInterval(frame, 10);
+    const elem = document.getElementById("myBar");
+    const width = 1;
+    const id = setInterval(frame, 10);
     function frame() {
       if (width >= 100) {
         clearInterval(id);

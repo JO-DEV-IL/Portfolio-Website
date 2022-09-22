@@ -16,11 +16,12 @@
       			Username : "jillianokeefe.dev@gmail.com",
       			Password : `${password}`,
       			To : 'jillianokeefe.dev@gmail.com',
-      			From : document.getElementById('email').value,
+      			From : 'jillianokeefe.dev@gmail.com',
       			Subject : "New Contact Form Message",
       			Body :
 				`Name: ${document.getElementById('name').value}
 				Phone: ${document.getElementById('phone').value}
+				Email: ${document.getElementById('email').value}
 				Message: ${document.getElementById('message').value}`
   				}).then(
   				  message => alert(message)

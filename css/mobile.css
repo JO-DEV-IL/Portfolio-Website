@@ -21,3 +21,13 @@
         margin-top: 100px;
        }
 }
+@media screen and (max-width: 750px){
+       .why-choose-me{
+        margin-top: 900px;
+       }
+}
+@media screen and (max-width: 475px){
+    .why-choose-me{
+     margin-top: 1200px;
+    }
+}

@@ -100,6 +100,6 @@ observer.observe(document.querySelector('.why-choose-me'));
 
 // DARK MODE OPTION //
 function darkSide() {
-  const element = document.body;
-  element.classList.toggle("dark");
+  const body = document.querySelector('body')
+  body.classList.toggle("darkBody")
   }

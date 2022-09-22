@@ -24,14 +24,11 @@ li{
 .line-height{
     line-height: 35px;
 }
-section:not(.main-title,.main-nav,.what-i-do,.why-choose-me){
-    height: 1200px;
-}
 .what-i-do,.why-choose-me{
     height: 500px;
 }
-.background-color{
-    background-color: rgb(240, 238, 238);
+section:not(.main-title,.main-nav){
+    padding: 100px;
 }
 
 /* STICKY NAVBAR */
@@ -85,7 +82,6 @@ section:not(.main-title,.main-nav,.what-i-do,.why-choose-me){
     color: salmon;
 }
 .main-title button{
-    background-color: white;
     border: 1px solid salmon;
     color: black;
     padding: 15px 32px;
@@ -116,7 +112,6 @@ section:not(.main-title,.main-nav,.what-i-do,.why-choose-me){
     padding: 75px;
     margin: 50px auto auto auto;
     box-shadow: 5px 5px salmon;
-    background-color: white;
 }
 
 
@@ -165,9 +160,19 @@ section:not(.main-title,.main-nav,.what-i-do,.why-choose-me){
 
 
 .about-me{
-    width: 100%;
-    height: 800px;
     text-align: center;
+}
+.about-me-flex-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.about-me-flex-container p{
+    flex-wrap: wrap;
+    margin-top: 100px;
+    margin-right: 100px;
+    inline-size: 400px;
+    word-break: break-word;
 }
 .about-me img{
     border-radius: 40%; 
@@ -184,7 +189,7 @@ section:not(.main-title,.main-nav,.what-i-do,.why-choose-me){
 }
 
 /* DARK MODE */
-.dark{
+.darkBody{
     background-color: #222;
-    color: #e6e6e6;
+    color: whitesmoke;
 }

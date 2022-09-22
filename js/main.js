@@ -103,18 +103,3 @@ function darkSide() {
   const body = document.querySelector('body')
   body.classList.toggle("darkBody")
   }
-
-  // FORM SUBMIT THROUGH SMTPJS.COM //
-  function sendEmail(){
-    Email.send({
-      Host : "smtp.gmail.com",
-      Username : "jillianokeefe.dev@gmail.com",
-      Password : `${password}`,
-      To : 'jillianokeefe.dev@gmail.com',
-      From : document.getElementById('email').value,
-      Subject : "New Contact Form Message",
-      Body : "And this is the body"
-  }).then(
-    message => alert(message)
-  );
-}

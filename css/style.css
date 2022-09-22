@@ -83,7 +83,6 @@ section:not(.main-title,.main-nav){
 }
 .main-title button{
     border: 1px solid salmon;
-    color: black;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -95,6 +94,10 @@ section:not(.main-title,.main-nav){
 .main-title button:hover{
     background-color: salmon;
     color: white;
+}
+.main-title a{
+    text-decoration: none;
+    color: black;
 }
 
 

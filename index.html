@@ -18,7 +18,10 @@
       			To : 'jillianokeefe.dev@gmail.com',
       			From : document.getElementById('email').value,
       			Subject : "New Contact Form Message",
-      			Body : document.getElementById('message').value
+      			Body :
+				`Name: ${document.getElementById('name').value}
+				Phone: ${document.getElementById('phone').value}
+				Message: ${document.getElementById('message').value}`
   				}).then(
   				  message => alert(message)
   				);

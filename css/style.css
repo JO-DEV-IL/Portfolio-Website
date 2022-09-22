@@ -189,7 +189,6 @@ section:not(.main-title,.main-nav){
 }
 .contact-form-container{
     width: 100%;
-    background-color: salmon;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -197,14 +196,14 @@ section:not(.main-title,.main-nav){
 form{
     display: flex;
     flex-direction: column;
-    background: white;
+    background: salmon;
     padding: 2vw 4vw;
     width: 90%;
     max-width: 600px;
     border-radius: 10px;
 }
 form h3{
-    color: #333;
+    color: whitesmoke;
     font-weight: 800;
     margin-bottom: 20px;
 }
@@ -218,8 +217,8 @@ form input, form textarea{
 }
 form button{
     padding: 15px;
-    background: salmon;
-    color: white;
+    background: whitesmoke;
+    color: salmon;
     font-size: 18px;
     border: 0;
     outline: none;

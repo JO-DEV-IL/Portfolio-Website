@@ -109,7 +109,7 @@ section:not(.main-title,.main-nav,.what-i-do,.why-choose-me){
 }
 .what-i-do-tools{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-evenly; 
 }
 .square{
     border: 2px solid salmon;
@@ -124,9 +124,11 @@ section:not(.main-title,.main-nav,.what-i-do,.why-choose-me){
     width: 100%;
     text-align: center;
 }
-#javascriptBar, #htmlcssBar, #nodejsBar, #githubBar{
+#skillBar1, #skillBar2, #skillBar3, #skillBar4{
     width: 100%;
     /* background-color: #333; */
+    font-weight: 800;
+    color: whitesmoke;
     padding: 25px;
 }
   

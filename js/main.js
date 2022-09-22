@@ -11,7 +11,7 @@ function stickyNav() {
 }
 
 // PROGRESS BARS //
-function moveJs() {
+function moveSkill1() {
   let i = 0;
   if (i == 0) {
     i = 1;
@@ -19,7 +19,7 @@ function moveJs() {
     let width = 1;
     let id = setInterval(frame, 10);
     function frame() {
-      if (width >= 50) {
+      if (width >= 85) {
         clearInterval(id);
         i = 0;
       } else {
@@ -29,11 +29,29 @@ function moveJs() {
     }
   }
 }
-function moveHtml() {
+function moveSkill2() {
   let i = 0;
   if (i == 0) {
     i = 1;
     let elem = document.getElementById("myBar2");
+    let width = 1;
+    let id = setInterval(frame, 10);
+    function frame() {
+      if (width >= 75) {
+        clearInterval(id);
+        i = 0;
+      } else {
+        width++;
+        elem.style.width = width + "%";
+      }
+    }
+  }
+}
+function moveSkill3() {
+  let i = 0;
+  if (i == 0) {
+    i = 1;
+    let elem = document.getElementById("myBar3");
     let width = 1;
     let id = setInterval(frame, 10);
     function frame() {
@@ -47,25 +65,7 @@ function moveHtml() {
     }
   }
 }
-function moveNode() {
-  let i = 0;
-  if (i == 0) {
-    i = 1;
-    let elem = document.getElementById("myBar3");
-    let width = 1;
-    let id = setInterval(frame, 10);
-    function frame() {
-      if (width >= 25) {
-        clearInterval(id);
-        i = 0;
-      } else {
-        width++;
-        elem.style.width = width + "%";
-      }
-    }
-  }
-}
-function moveGit() {
+function moveSkill4() {
   let i = 0;
   if (i == 0) {
     i = 1;
@@ -73,7 +73,7 @@ function moveGit() {
     let width = 1;
     let id = setInterval(frame, 10);
     function frame() {
-      if (width >= 30) {
+      if (width >= 90) {
         clearInterval(id);
         i = 0;
       } else {
@@ -88,10 +88,10 @@ function moveGit() {
 const observer = new IntersectionObserver(entries => {
   entries.forEach(entry => {
     if (entry.isIntersecting) {
-      moveJs()
-      moveHtml()
-      moveNode()
-      moveGit()
+      moveSkill1()
+      moveSkill2()
+      moveSkill3()
+      moveSkill4()
     }
   });
 });

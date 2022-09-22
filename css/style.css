@@ -182,3 +182,9 @@ section:not(.main-title,.main-nav,.what-i-do,.why-choose-me){
     height: 800px;
     text-align: center;
 }
+
+/* DARK MODE */
+.dark{
+    background-color: #222;
+    color: #e6e6e6;
+}

@@ -97,3 +97,9 @@ const observer = new IntersectionObserver(entries => {
 });
 
 observer.observe(document.querySelector('.why-choose-me'));
+
+// DARK MODE OPTION //
+function darkSide() {
+  const element = document.body;
+  element.classList.toggle("dark");
+  }

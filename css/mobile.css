@@ -1,3 +1,23 @@
-@media only screen and (max-width: 600px) {
-    
+@media screen and (max-width: 1397px){
+   body{
+    text-align: center;
+   }
+   .what-i-do-tools,.project-squares div{
+    flex-wrap: wrap;
+   }
+}
+
+@media screen and (max-width: 900px){
+    .projects{
+        margin-top: 100px;
+       }
+       .why-choose-me{
+        margin-top: 500px;
+       }
+       .what-i-do{
+        margin-bottom: 500px;
+       }
+       .main-title{
+        margin-top: 100px;
+       }
 }

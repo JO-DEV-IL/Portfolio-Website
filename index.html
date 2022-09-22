@@ -118,11 +118,24 @@
 		</section>
 
 		<section class="contact-info line-height">
-			<p>Contact Information</p>
+			<p>Contact</p>
 			<p style="font-size: 30px; color: salmon;">Get in touch with me!</p>
+			<p style="margin: 25px 25px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, aspernatur harum. Possimus eligendi sunt saepe nulla magni quam officiis doloremque, labore cumque commodi maxime. Porro facere illo quidem nostrum iste.</p>
+			<section class="contact-form-container">
+				<form onsubmit="sendEmail(); reset(); return false">
+					<h3>WANT TO MESSAGE ME DIRECTLY?</h3>
+					<input type="text" id="name" placeholder="Your name" required>
+					<input type="email" id="email" placeholder="Your email" required>
+					<input type="text" id="phone" placeholder="Your phone#" required>
+					<textarea id="message" rows="4" placeholder="Type your message here" required></textarea>
+					<button type="submit">Send</button>
+				</form>
+			</section>
+	
 		</section>
-
 		<script type="text/javascript" src="js/main.js"></script>
+		<script src="https://smtpjs.com/v3/smtp.js"></script>
+		<script src="login.js"></script>
 	</script>
 	</body>
 </html>

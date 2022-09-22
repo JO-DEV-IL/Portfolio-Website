@@ -10,7 +10,7 @@
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 		<script type="text/javascript">
-			  function sendEmail(password){
+			  function sendEmail(){
     			Email.send({
       			Host : "smtp.elasticemail.com",
       			Username : "jillianokeefe.dev@gmail.com",
@@ -18,7 +18,7 @@
       			To : 'jillianokeefe.dev@gmail.com',
       			From : document.getElementById('email').value,
       			Subject : "New Contact Form Message",
-      			Body : "And this is the body"
+      			Body : document.getElementById('message').value
   				}).then(
   				  message => alert(message)
   				);

@@ -1,4 +1,4 @@
-@media screen and (max-width: 1397px){
+@media screen and (max-width: 1300px){
    body{
     text-align: center;
    }
@@ -7,27 +7,8 @@
    }
 }
 
-/* @media screen and (max-width: 960px){
-    .projects{
-        margin-top: 100px;
-       }
-       .why-choose-me{
-        margin-top: 500px;
-       }
-       .what-i-do{
-        margin-bottom: 500px;
-       }
-       .main-title{
-        margin-top: 100px;
-       }
-} */
-/* @media screen and (max-width: 750px){
-       .why-choose-me{
-        margin-top: 900px;
-       }
-}
-@media screen and (max-width: 475px){
-    .why-choose-me{
-     margin-top: 1200px;
-    }
+/* @media screen and (max-width: 1080px) {
+    .main-title img{
+        height: 100%;
+   }
 } */

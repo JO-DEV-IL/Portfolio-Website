@@ -1,4 +1,3 @@
-/* GLOBAL CSS */
 @import url('https://fonts.googleapis.com/css2?family=Exo:wght@400;700&display=swap');
 
 *{
@@ -24,7 +23,6 @@ li{
     background-color: rgb(3, 3, 43);
     color: white;
 }
-
 
 
 /* STICKY NAVBAR */
@@ -60,21 +58,20 @@ li{
 /* MAIN TITLE */
 .main-title{
     display: flex;
-    flex-wrap: wrap;
-    padding: 100px;
+    width: 1200px;
 }
 .main-title img{
-    border-radius: 40%; 
-    height: 500px;
+    border-radius: 40%;
+    height: 625px;
     border-right: 5px solid salmon;
     padding: 10px;
 }
-.main-title-img{
-    margin: auto 25px auto auto;
+.main-title{
+    margin: 150px auto;
 }
 .main-title-text{
     font-size: 40px;
-    margin: auto auto auto 25px;
+    margin: auto;
 }
 .main-title span{
     color: salmon;
@@ -99,27 +96,31 @@ li{
 }
 
 
-
+/* WHAT I DO */
 .what-i-do{
     width: 100%;
     text-align: center;
+    height: 100%;
+    padding: 100px 0;
 }
 .what-i-do-tools{
     display: flex;
-    justify-content: space-evenly; 
+    justify-content: space-evenly;
 }
 .square{
     border: 2px solid #fffcc9;
     padding: 75px;
-    margin: 50px auto auto auto;
+    margin: auto;
     box-shadow: 5px 5px #fffcc9;
 }
 
 
 
-
+/* SKILLS */
 #skillBlocks{
     display: flex;
+    padding: 100px 0;
+    background-color: rgb(3, 3, 43);
 }
 
 .why-choose-me{
@@ -170,7 +171,7 @@ li{
 
 
 
-
+/* PROJECTS */
 .projects{
     width: 100%;
     text-align: center;

@@ -22,17 +22,17 @@ li{
 }
 .what-i-do,.why-choose-me{
     height: 500px;
-    background-color: navy;
+    background-color: rgb(3, 3, 43);
     color: white;
 }
-section:not(.main-title,.main-nav){
+/* section:not(.main-title,.main-nav){
     padding: 100px;
-}
+} */
 
 /* STICKY NAVBAR */
 #navbar{
     overflow: hidden;
-    background-color: #333;
+    background-color: rgb(3, 3, 43);
 }
 #navbar a{
     float: left;
@@ -58,6 +58,8 @@ section:not(.main-title,.main-nav){
 }
 
 
+
+/* MAIN TITLE */
 .main-title{
     display: flex;
     flex-wrap: wrap;
@@ -116,19 +118,26 @@ section:not(.main-title,.main-nav){
 }
 
 
+
+
+#skillBlocks{
+    display: flex;
+}
+
 .why-choose-me{
     width: 100%;
     text-align: center;
     color: white;
     height: 100%;
+    margin: auto;
 }
 .why-choose-me #barTitles{
     text-align: left;
     padding: 0;
     margin: 0;
 }
-#skillBar1, #skillBar2, #skillBar3, #skillBar4{
-    width: 100%;
+#skillBar1, #skillBar2, #skillBar3, #skillBar4, #skillBar5, #skillBar6, #skillBar7, #skillBar8{
+    width: 50%;
     background-color: whitesmoke;
     font-weight: 800;
     color: whitesmoke;
@@ -137,7 +146,7 @@ section:not(.main-title,.main-nav){
     border-radius: 25px;
 }
   
-#myBar1, #myBar2, #myBar3, #myBar4{
+#myBar1, #myBar2, #myBar3, #myBar4, #myBar5, #myBar6, #myBar7, #myBar8{
     width: 1%;
     height: 30px;
     background-color: red;
@@ -157,6 +166,8 @@ section:not(.main-title,.main-nav){
 }
 
 
+
+
 .projects{
     width: 100%;
     text-align: center;
@@ -167,7 +178,11 @@ section:not(.main-title,.main-nav){
 .project-squares .square{
     padding: 150px;
     margin-top: 100px;
+    box-shadow: 5px 5px salmon;
+    border-color: salmon;
 }
+
+
 
 
 .about-me{

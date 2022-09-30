@@ -12,73 +12,149 @@ function stickyNav() {
 
 // PROGRESS BARS //
 function moveSkill1() {
-  let i = 0;
-  if (i == 0) {
-    i = 1;
-    let elem = document.getElementById("myBar1");
-    let width = 1;
-    let id = setInterval(frame, 10);
+  let i = 0
+  if (i == 0){
+    i = 1
+    let elem = document.getElementById("myBar1")
+    let width = 1
+    let id = setInterval(frame, 10)
     function frame() {
-      if (width >= 85) {
-        clearInterval(id);
-        i = 0;
-      } else {
-        width++;
-        elem.style.width = width + "%";
+      if (width >= 85){
+        clearInterval(id)
+        i = 0
+      }else {
+        width++
+        elem.style.width = width + "%"
       }
     }
   }
 }
 function moveSkill2() {
-  let i = 0;
+  let i = 0
   if (i == 0) {
-    i = 1;
-    let elem = document.getElementById("myBar2");
-    let width = 1;
-    let id = setInterval(frame, 10);
+    i = 1
+    let elem = document.getElementById("myBar2")
+    let width = 1
+    let id = setInterval(frame, 10)
     function frame() {
       if (width >= 75) {
-        clearInterval(id);
+        clearInterval(id)
         i = 0;
       } else {
-        width++;
-        elem.style.width = width + "%";
+        width++
+        elem.style.width = width + "%"
       }
     }
   }
 }
 function moveSkill3() {
-  let i = 0;
+  let i = 0
   if (i == 0) {
-    i = 1;
-    let elem = document.getElementById("myBar3");
-    let width = 1;
+    i = 1
+    let elem = document.getElementById("myBar3")
+    let width = 1
     let id = setInterval(frame, 10);
     function frame() {
       if (width >= 80) {
         clearInterval(id);
         i = 0;
       } else {
-        width++;
-        elem.style.width = width + "%";
+        width++
+        elem.style.width = width + "%"
       }
     }
   }
 }
 function moveSkill4() {
-  let i = 0;
+  let i = 0
   if (i == 0) {
-    i = 1;
-    let elem = document.getElementById("myBar4");
-    let width = 1;
-    let id = setInterval(frame, 10);
+    i = 1
+    let elem = document.getElementById("myBar4")
+    let width = 1
+    let id = setInterval(frame, 10)
     function frame() {
       if (width >= 90) {
-        clearInterval(id);
-        i = 0;
+        clearInterval(id)
+        i = 0
       } else {
-        width++;
-        elem.style.width = width + "%";
+        width++
+        elem.style.width = width + "%"
+      }
+    }
+  }
+}
+
+function moveSkill5() {
+  let i = 0
+  if (i == 0){
+    i = 1
+    let elem = document.getElementById("myBar5")
+    let width = 1
+    let id = setInterval(frame, 10)
+    function frame() {
+      if (width >= 85){
+        clearInterval(id)
+        i = 0
+      }else {
+        width++
+        elem.style.width = width + "%"
+      }
+    }
+  }
+}
+
+function moveSkill6() {
+  let i = 0
+  if (i == 0){
+    i = 1
+    let elem = document.getElementById("myBar6")
+    let width = 1
+    let id = setInterval(frame, 10)
+    function frame() {
+      if (width >= 85){
+        clearInterval(id)
+        i = 0
+      }else {
+        width++
+        elem.style.width = width + "%"
+      }
+    }
+  }
+}
+
+function moveSkill7() {
+  let i = 0
+  if (i == 0){
+    i = 1
+    let elem = document.getElementById("myBar7")
+    let width = 1
+    let id = setInterval(frame, 10)
+    function frame() {
+      if (width >= 85){
+        clearInterval(id)
+        i = 0
+      }else {
+        width++
+        elem.style.width = width + "%"
+      }
+    }
+  }
+}
+
+function moveSkill8() {
+  let i = 0
+  if (i == 0){
+    i = 1
+    let elem = document.getElementById("myBar8")
+    let width = 1
+    let id = setInterval(frame, 10)
+    function frame() {
+      if (width >= 85){
+        clearInterval(id)
+        i = 0
+      }else {
+        width++
+        elem.style.width = width + "%"
       }
     }
   }
@@ -92,6 +168,10 @@ const observer = new IntersectionObserver(entries => {
       moveSkill2()
       moveSkill3()
       moveSkill4()
+      moveSkill5()
+      moveSkill6()
+      moveSkill7()
+      moveSkill8()
     }
   });
 });

@@ -7,7 +7,7 @@
    }
 }
 
-@media screen and (max-width: 960px){
+/* @media screen and (max-width: 960px){
     .projects{
         margin-top: 100px;
        }
@@ -20,8 +20,8 @@
        .main-title{
         margin-top: 100px;
        }
-}
-@media screen and (max-width: 750px){
+} */
+/* @media screen and (max-width: 750px){
        .why-choose-me{
         margin-top: 900px;
        }
@@ -30,4 +30,4 @@
     .why-choose-me{
      margin-top: 1200px;
     }
-}
+} */

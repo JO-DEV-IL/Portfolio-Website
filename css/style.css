@@ -22,6 +22,8 @@ li{
 }
 .what-i-do,.why-choose-me{
     height: 500px;
+    background-color: navy;
+    color: white;
 }
 section:not(.main-title,.main-nav){
     padding: 100px;
@@ -107,29 +109,39 @@ section:not(.main-title,.main-nav){
     justify-content: space-evenly; 
 }
 .square{
-    border: 2px solid salmon;
+    border: 2px solid yellow;
     padding: 75px;
     margin: 50px auto auto auto;
-    box-shadow: 5px 5px salmon;
+    box-shadow: 5px 5px yellow;
 }
 
 
 .why-choose-me{
     width: 100%;
     text-align: center;
+    color: white;
+    height: 100%;
+}
+.why-choose-me #barTitles{
+    text-align: left;
+    padding: 0;
+    margin: 0;
 }
 #skillBar1, #skillBar2, #skillBar3, #skillBar4{
     width: 100%;
-    /* background-color: #333; */
+    background-color: whitesmoke;
     font-weight: 800;
     color: whitesmoke;
-    padding: 25px;
+    padding: 10px;
+    margin: 25px;
+    border-radius: 25px;
 }
   
 #myBar1, #myBar2, #myBar3, #myBar4{
     width: 1%;
     height: 30px;
-    background-color: salmon;
+    background-color: red;
+    border-radius: 25px;
 }
 .why-choose-me button{
     background-color: salmon;

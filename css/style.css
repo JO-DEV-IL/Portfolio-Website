@@ -19,9 +19,12 @@ li{
 .line-height{
     line-height: 35px;
 }
-.what-i-do, .why-choose-me{
+.what-i-do, .why-choose-me, .about-me{
     background-color: rgb(3, 3, 43);
     color: white;
+}
+section:not(.main-title,.main-nav){
+    padding: 100px 0;
 }
 
 
@@ -101,7 +104,6 @@ li{
     width: 100%;
     text-align: center;
     height: 100%;
-    padding: 100px 0;
 }
 .what-i-do-tools{
     display: flex;
@@ -119,7 +121,6 @@ li{
 /* SKILLS */
 #skillBlocks{
     display: flex;
-    padding: 100px 0;
     background-color: rgb(3, 3, 43);
 }
 
@@ -176,14 +177,50 @@ li{
     width: 100%;
     text-align: center;
 }
-.project-squares div{
+.project-squares{
     display: flex;
 }
 .project-squares .square{
-    padding: 150px;
-    margin-top: 100px;
     box-shadow: 5px 5px salmon;
     border-color: salmon;
+    height: 300px;
+    width: 350px;
+    margin-top: 50px;
+}
+#project1 p, #project2 p, #project3 p, #project4 p, #project5 p{
+    background-color: rgb(16, 16, 27); 
+    opacity: 0.8;
+    font-size: 20px;
+    color: whitesmoke;
+}
+.projects a{
+    text-decoration: none;
+    color: rgb(129, 129, 233);
+}
+#project1{
+    background-image: url('https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+    background-position: center;
+}
+#project2{
+    background-image: url('https://i0.wp.com/ssbmtextures.com/wp-content/uploads/2021/03/GLASS-STADIUM-3-e93c5af0.jpg?fit=1500%2C1000&ssl=1');
+    background-size: cover;
+    background-position: center;
+}
+#project3{
+    background-image: url('https://media1.popsugar-assets.com/files/thumbor/MFwccjvKdNIwOjWACarFrPoTEr8/fit-in/1024x1024/filters:format_auto-!!-:strip_icc-!!-/2017/06/26/874/n/38761221/8f29c14b64b2f51f_StockSnap_4F8K4ADXK8.jpg');
+    background-size: cover;
+    background-position: center;
+}
+#project4{
+    background-image: url('https://github.com/JO-DEV-IL/Portfolio-Website/blob/main/img/profile-img.jpg?raw=true');
+    background-size: cover;
+    background-position: center;
+}
+#project5{
+    background-image: url('https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+    background-size: cover;
+    background-position: center;
 }
 
 
@@ -214,7 +251,6 @@ li{
 
 .contact-info{
     width: 100%;
-    height: 800px;
     text-align: center;
 }
 .contact-form-container{

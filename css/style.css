@@ -20,14 +20,12 @@ li{
 .line-height{
     line-height: 35px;
 }
-.what-i-do,.why-choose-me{
-    height: 500px;
+.what-i-do, .why-choose-me{
     background-color: rgb(3, 3, 43);
     color: white;
 }
-/* section:not(.main-title,.main-nav){
-    padding: 100px;
-} */
+
+
 
 /* STICKY NAVBAR */
 #navbar{
@@ -111,10 +109,10 @@ li{
     justify-content: space-evenly; 
 }
 .square{
-    border: 2px solid yellow;
+    border: 2px solid #fffcc9;
     padding: 75px;
     margin: 50px auto auto auto;
-    box-shadow: 5px 5px yellow;
+    box-shadow: 5px 5px #fffcc9;
 }
 
 
@@ -129,15 +127,20 @@ li{
     text-align: center;
     color: white;
     height: 100%;
-    margin: auto;
 }
 .why-choose-me #barTitles{
     text-align: left;
-    padding: 0;
-    margin: 0;
+    margin-left: 25px;
+    color: #fffcc9;
 }
+.why-choose-me p{
+    text-align: left;
+    margin-left: 25px;
+    color: whitesmoke;
+}
+
 #skillBar1, #skillBar2, #skillBar3, #skillBar4, #skillBar5, #skillBar6, #skillBar7, #skillBar8{
-    width: 50%;
+    width: 90%;
     background-color: whitesmoke;
     font-weight: 800;
     color: whitesmoke;

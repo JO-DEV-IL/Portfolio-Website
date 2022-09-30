@@ -10,7 +10,11 @@ function stickyNav() {
   }
 }
 
+
+
 // PROGRESS BARS //
+
+// HTML/CSS
 function moveSkill1() {
   let i = 0
   if (i == 0){
@@ -29,6 +33,8 @@ function moveSkill1() {
     }
   }
 }
+
+// DETERMINATION
 function moveSkill2() {
   let i = 0
   if (i == 0) {
@@ -37,7 +43,7 @@ function moveSkill2() {
     let width = 1
     let id = setInterval(frame, 10)
     function frame() {
-      if (width >= 75) {
+      if (width >= 101) {
         clearInterval(id)
         i = 0;
       } else {
@@ -47,6 +53,8 @@ function moveSkill2() {
     }
   }
 }
+
+// NODE/EX/MONGO
 function moveSkill3() {
   let i = 0
   if (i == 0) {
@@ -55,7 +63,7 @@ function moveSkill3() {
     let width = 1
     let id = setInterval(frame, 10);
     function frame() {
-      if (width >= 80) {
+      if (width >= 75) {
         clearInterval(id);
         i = 0;
       } else {
@@ -65,6 +73,8 @@ function moveSkill3() {
     }
   }
 }
+
+// DAD JOKES
 function moveSkill4() {
   let i = 0
   if (i == 0) {
@@ -73,7 +83,7 @@ function moveSkill4() {
     let width = 1
     let id = setInterval(frame, 10)
     function frame() {
-      if (width >= 90) {
+      if (width >= 50) {
         clearInterval(id)
         i = 0
       } else {
@@ -84,6 +94,7 @@ function moveSkill4() {
   }
 }
 
+// GOOGLE-FU
 function moveSkill5() {
   let i = 0
   if (i == 0){
@@ -92,7 +103,7 @@ function moveSkill5() {
     let width = 1
     let id = setInterval(frame, 10)
     function frame() {
-      if (width >= 85){
+      if (width >= 115){
         clearInterval(id)
         i = 0
       }else {
@@ -103,6 +114,7 @@ function moveSkill5() {
   }
 }
 
+// JAVASCRIPT
 function moveSkill6() {
   let i = 0
   if (i == 0){
@@ -122,6 +134,7 @@ function moveSkill6() {
   }
 }
 
+// BEST PRACTICES
 function moveSkill7() {
   let i = 0
   if (i == 0){
@@ -130,7 +143,7 @@ function moveSkill7() {
     let width = 1
     let id = setInterval(frame, 10)
     function frame() {
-      if (width >= 85){
+      if (width >= 100){
         clearInterval(id)
         i = 0
       }else {
@@ -141,6 +154,7 @@ function moveSkill7() {
   }
 }
 
+// GIT/GITHUB
 function moveSkill8() {
   let i = 0
   if (i == 0){
@@ -149,7 +163,7 @@ function moveSkill8() {
     let width = 1
     let id = setInterval(frame, 10)
     function frame() {
-      if (width >= 85){
+      if (width >= 75){
         clearInterval(id)
         i = 0
       }else {

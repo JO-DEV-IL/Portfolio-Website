@@ -2,7 +2,7 @@
    body{
     text-align: center;
    }
-   .what-i-do-tools,.project-squares div, .about-me{
+   .what-i-do-tools,.project-squares div, .about-me, #skillBlocks{
     flex-wrap: wrap;
    }
 }

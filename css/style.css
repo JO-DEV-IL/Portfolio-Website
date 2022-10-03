@@ -13,7 +13,7 @@
  
     #navbar a{
        display: block;
-       font-size: 13px;
+       font-size: 12px;
     }
     #navbar .email span{
        display: none;
@@ -33,7 +33,6 @@
     }
 
     
-    .what-i-do
     .what-i-do .square{
        margin: 25px;
     }

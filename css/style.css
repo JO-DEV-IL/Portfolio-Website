@@ -1,27 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo:wght@400;700&display=swap');
 
-@media screen and (max-width: 780px){
+@media screen and (max-width: 430px){
     *{
        flex-wrap: wrap;
        text-align: center;
     }
-    html{
-        padding: 0 !important;
-        margin: 0 !important;
-        overflow-x: hidden;
+    #navbar{
+        height: 55px;
+        margin: 0;
+        padding: 0;
     }
- 
     #navbar a{
-       display: block;
-       font-size: 12px;
+       font-size: 10px;
+       margin: 0;
+       padding: 0;
     }
     #navbar .email span{
        display: none;
-    }  
+    }
     .main-title-img img{
        max-height: 450px;
-       margin-left: 50px;
-       margin-bottom: 50px;
+       margin-left: 25px;
+       margin-bottom: 25px;
     }
     .main-title-text p{
        font-size: 25px;
@@ -41,13 +41,18 @@
        max-height: 350px;
        margin-right: 0px;
     }
+    .about-me-flex-container p{
+        font-size: 12px;
+        inline-size: 0;
+        max-width: 350px;
+    }
  }
 
 *{
     box-sizing: border-box;
     font-family: 'Exo', sans-serif;
-    margin: 0;
     padding: 0;
+    margin: 0;
 }
 html{
     scroll-behavior: smooth;
@@ -279,17 +284,15 @@ section:not(.main-title,.main-nav){
     justify-content: center;
 }
 .about-me-flex-container p{
-    margin: 60px 125px;
-    inline-size: 400px;
+    margin: 25px 25px;
     word-break: break-word;
-}
-.about-me img{
-    border-radius: 40%;
-    padding: 10px;
+    inline-size: 500px;
 }
 #about-me-img-1{
     border-left: 5px solid salmon;
-    height: 450px;
+    max-height: 300px;
+    border-radius: 40%;
+    padding: 10px;
 }
 
 

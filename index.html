@@ -5,7 +5,6 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<title>Portfolio Website</title>
 		
-		<link rel="stylesheet" href="css/mobile.css">
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -33,7 +32,7 @@
 	<body>
 		<section class="main-nav">
 			<nav id="navbar">
-				<a class="email" href="https://mail.google.com/mail/?view=cm&fs=1&to=jillianokeefe.dev@gmail.com"><i class="fa fa-envelope" style="font-size:24px; margin: 5px; color: salmon;"></i>jillianokeefe.dev@gmail.com</a>
+				<a class="email" href="https://mail.google.com/mail/?view=cm&fs=1&to=jillianokeefe.dev@gmail.com"><i class="fa fa-envelope" style="font-size:24px; margin: 5px; color: salmon;"></i><span>jillianokeefe.dev@gmail.com</span></a>
 				<ul>
 					<li><a href="#contact-info">Contact</a></li>
 					<li><a href="#about-me">About</a></li>
@@ -49,14 +48,16 @@
 				<img src="https://github.com/JO-DEV-IL/Portfolio-Website/blob/main/img/profile-img.jpg?raw=true" alt="Profile image">
 			</div>
 			<div class="main-title-text">
-				<p style="font-size: 25px; margin-bottom: 15px;"><span>Hello,</span> my name is Jillian O'Keefe.</p>
+				<p style="margin-bottom: 15px;"><span>Hello,</span> my name is Jillian O'Keefe.</p>
 				<p>I am a</p>
 				<p style="margin-bottom: 15px"><span>Fullstack Software Engineer,</span></p>
-				<p style="font-size: 35px;">and I could be <span>your</span> next team member!</p>
+				<p>and I could be <span>your</span> next team member!</p>
 				
-				<button id="button"><a href="#contact-info">GET IN TOUCH</a></button>
-				<button id="button"><a href="https://drive.google.com/uc?export=download&id=1iRZTLKE8BuHZuJHjIA8GldyJXh6wIUg2">DOWNLOAD RESUME</a></button>
-				<button onclick="darkSide()" id="dark-mode">TOGGLE DARK MODE</button>
+				<div class="button-div">
+					<button id="button"><a href="#contact-info">GET IN TOUCH</a></button>
+					<button id="button"><a href="https://drive.google.com/uc?export=download&id=1iRZTLKE8BuHZuJHjIA8GldyJXh6wIUg2">DOWNLOAD RESUME</a></button>
+					<button onclick="darkSide()" id="dark-mode">TOGGLE DARK MODE</button>
+				</div>
 
 				<p>
 					<a href="https://github.com/JO-DEV-IL"><i class="fa fa-github" aria-hidden="true" style="color: salmon; margin: 25px 10px 0 0;"><span style="font-size: 15px; margin-left: 5px; color: salmon;">/JO_DEV_IL</span></i></a>
@@ -67,23 +68,23 @@
 		
 		<section class="what-i-do line-height">
 			<p>Service</p>
-			<p style="font-size: 35px; color: #fffcc9; margin-bottom: 100px;">What Can I Do For You?</p>
+			<p style="font-size: 35px; color: #fffcc9; margin-bottom: 75px;">What Can I Do For You?</p>
 			<div class="what-i-do-tools">
 				<div class="square">
 					<i class="fa fa-desktop aria-hidden="true" style="font-size: 35px;"></i>
-					<p>Frontend Skills</p>
+					<p>Frontend</p>
 				</div>
 				<div class="square">
 					<i class="fa fa-terminal" aria-hidden="true" style="font-size: 35px;"></i>
-					<p>Backend Skills</p>
+					<p>Backend</p>
 				</div>
 				<div class="square">
 					<i class="fa fa-code" aria-hidden="true" style="font-size: 35px;"></i>
-					<p>Web Dev Skills</p>
+					<p>Web Development</p>
 				</div>
 				<div class="square">
 					<i class="fa fa-mobile" aria-hidden="true" style="font-size: 35px;"></i>
-					<p>App Dev Skills</p>
+					<p>Applications</p>
 				</div>
 			</div>
 		</section>
@@ -91,10 +92,10 @@
 		<section id="skillBlocks">
 			<div class="why-choose-me line-height">
 				<div>
-					<h2 id="barTitles">HTML5/CSS3</h2>
-					<p>Ooey, gooey UIs. And I know how to center a div.</p>
-					<div id="skillBar1">
-						<div id="myBar1"></div>
+					<h2 id="barTitles">JAVASCRIPT</h2>
+					<p>const hireHer = qualifications ? sendOffer : sendEdibleArrangementRejection</p>
+					<div id="skillBar6">
+						<div id="myBar6"></div>
 					</div>
 				</div>
 				
@@ -134,10 +135,10 @@
 				</div>
 				
 				<div>
-					<h2 id="barTitles">JAVASCRIPT</h2>
-					<p>const hireHer = qualifications ? sendOffer : sendEdibleArrangementRejection</p>
-					<div id="skillBar6">
-						<div id="myBar6"></div>
+					<h2 id="barTitles">HTML5/CSS3</h2>
+					<p>Ooey, gooey UIs. And I know how to center a div.</p>
+					<div id="skillBar1">
+						<div id="myBar1"></div>
 					</div>
 				</div>
 				
@@ -163,32 +164,40 @@
 		<section class="projects line-height" id="projects">
 			<p>Portfolio</p>
 			<p style="font-size: 30px; color: salmon;">Projects</p>
-			<p>All projects can be found at my GitHub! I'm always messing with something on a daily basis.</p>
 
 			<div class="project-squares">
-				<div class="square" id="project1">
-					<p style="margin-top: 150px;">Recipe Lookup App</p>
-					<p><span><a href="https://github.com/JO-DEV-IL/Recipe-Lookup-App" style="margin-right: 25px;">GitHub</a><a href="https://codepen.io/JO-DEV-IL/full/NWMRGBW">Codepen</a></span></p>
+				<div>
+					<div class="square" id="project1">
+						<p style="margin-top: 150px;">Recipe Lookup App</p>
+						<p><span><a href="https://github.com/JO-DEV-IL/Recipe-Lookup-App" style="margin-right: 25px;">GitHub</a><a href="https://codepen.io/JO-DEV-IL/full/NWMRGBW">Codepen</a></span></p>
+					</div>
+					
+					<div class="square" id="project2">
+						<p style="margin-top: 150px;">Pokemon War Game</p>
+						<p><span><a href="https://github.com/JO-DEV-IL/pokemon-war-game" style="margin-right: 25px;">GitHub</a><a href="#">Codepen</a></span></p>
+					</div>
+					
+					<div class="square" id="project3">
+						<p style="margin-top: 150px;">Word Lookup App</p>
+						<p><span><a href="https://github.com/JO-DEV-IL/Dictionary-App" style="margin-right: 25px;">GitHub</a><a href="https://codepen.io/JO-DEV-IL/full/WNJRgbq">Codepen</a></span></p>
+					</div>
 				</div>
 				
-				<div class="square" id="project2">
-					<p style="margin-top: 150px;">Pokemon War Game</p>
-					<p><span><a href="https://github.com/JO-DEV-IL/pokemon-war-game" style="margin-right: 25px;">GitHub</a><a href="#">Codepen</a></span></p>
-				</div>
-				
-				<div class="square" id="project3">
-					<p style="margin-top: 150px;">Word Lookup App</p>
-					<p><span><a href="https://github.com/JO-DEV-IL/Dictionary-App" style="margin-right: 25px;">GitHub</a><a href="https://codepen.io/JO-DEV-IL/full/WNJRgbq">Codepen</a></span></p>
-				</div>
-				
-				<div class="square" id="project4">
-					<p style="margin-top: 150px;">My portfolio site!</p>
-					<p><span><a href="https://github.com/JO-DEV-IL/Portfolio-Website" style="margin-right: 25px;">GitHub</a><a href="https://codepen.io/JO-DEV-IL/full/GRdmoPw">Codepen</a></span></p>
-				</div>
-				
-				<div class="square" id="project5">
-					<p style="margin-top: 150px;">Project 6</p>
-					<p><span><a href="#" style="margin-right: 25px;">GitHub</a><a href="#">Codepen</a></span></p>
+				<div>
+					<div class="square" id="project4">
+						<p style="margin-top: 150px;">My portfolio site!</p>
+						<p><span><a href="https://github.com/JO-DEV-IL/Portfolio-Website" style="margin-right: 25px;">GitHub</a><a href="https://codepen.io/JO-DEV-IL/full/GRdmoPw">Codepen</a></span></p>
+					</div>
+					
+					<div class="square" id="project5">
+						<p style="margin-top: 150px;">Project 5</p>
+						<p><span><a href="#" style="margin-right: 25px;">GitHub</a><a href="#">Codepen</a></span></p>
+					</div>
+
+					<div class="square" id="project5">
+						<p style="margin-top: 150px;">Project 6</p>
+						<p><span><a href="#" style="margin-right: 25px;">GitHub</a><a href="#">Codepen</a></span></p>
+					</div>
 				</div>
 			</div>
 		</section>
@@ -198,10 +207,10 @@
 			<p style="font-size: 30px; color: salmon;">About Me</p>
 				<div class="about-me-flex-container">
 					<div>
-						<p>Hi! My name is Jillian O'Keefe and I'm a fullstack software engineer based in Massachusetts. My wonderful girlfriend Sam encouraged me to pursue a career in software engineering in July 2022, so in a leap of faith I left my previous career and began my journey learning frontend and backend using Javascript. <span style="color: salmon;">If you want a passionate, fast-learning employee with a positive attitude and love for the tech industry -- then here I am!</span></p>
+						<p>Hi! My name is Jillian O'Keefe and I'm a fullstack software engineer based in Massachusetts. Coding started out as a hobby that I picked up while being home with COVID. I found a love for it and decided to turn it into my lifelong career. In a leap of faith in July 2022, I left my previous job and began my journey learning frontend and backend using Javascript. <span style="color: salmon;">If you want a passionate, fast-learning employee with a positive attitude and love for the tech industry -- then here I am!</span></p>
 					</div>
 					<div>
-						<img src="https://github.com/JO-DEV-IL/Portfolio-Website/blob/main/img/profile-img2.jpg?raw=true" alt="Jo and Sam">
+						<img src="img/profile-img-3.jpg" alt="Jo candid camera" id="about-me-img-1">
 					</div>
 				</div>
 			</div>

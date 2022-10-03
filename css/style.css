@@ -1,5 +1,49 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo:wght@400;700&display=swap');
 
+@media screen and (max-width: 780px){
+    *{
+       flex-wrap: wrap;
+       text-align: center;
+    }
+    html{
+        padding: 0 !important;
+        margin: 0 !important;
+        overflow-x: hidden;
+    }
+ 
+    #navbar a{
+       display: block;
+       font-size: 13px;
+    }
+    #navbar .email span{
+       display: none;
+    }  
+    .main-title-img img{
+       max-height: 450px;
+       margin-left: 50px;
+       margin-bottom: 50px;
+    }
+    .main-title-text p{
+       font-size: 25px;
+       margin-right: 50px;
+    }
+    .button-div{
+        margin-right: 50px;
+        margin-top: 25px;
+    }
+
+    
+    .what-i-do
+    .what-i-do .square{
+       margin: 25px;
+    }
+ 
+    .about-me-flex-container img{
+       max-height: 350px;
+       margin-right: 0px;
+    }
+ }
+
 *{
     box-sizing: border-box;
     font-family: 'Exo', sans-serif;
@@ -61,7 +105,8 @@ section:not(.main-title,.main-nav){
 /* MAIN TITLE */
 .main-title{
     display: flex;
-    width: 1200px;
+    max-width: 1200px;
+    margin: 150px auto;
 }
 .main-title img{
     border-radius: 40%;
@@ -69,12 +114,10 @@ section:not(.main-title,.main-nav){
     border-right: 5px solid salmon;
     padding: 10px;
 }
-.main-title{
-    margin: 150px auto;
-}
 .main-title-text{
     font-size: 40px;
     margin: auto;
+    margin-left: 50px;
 }
 .main-title span{
     color: salmon;
@@ -114,6 +157,8 @@ section:not(.main-title,.main-nav){
     padding: 75px;
     margin: auto;
     box-shadow: 5px 5px #fffcc9;
+    width: 300px;
+    height: 225px;
 }
 
 
@@ -177,14 +222,14 @@ section:not(.main-title,.main-nav){
     width: 100%;
     text-align: center;
 }
-.project-squares{
+.project-squares > div{
     display: flex;
 }
 .project-squares .square{
     box-shadow: 5px 5px salmon;
     border-color: salmon;
     height: 300px;
-    width: 350px;
+    width: 500px;
     margin-top: 50px;
 }
 #project1 p, #project2 p, #project3 p, #project4 p, #project5 p{
@@ -231,21 +276,21 @@ section:not(.main-title,.main-nav){
 }
 .about-me-flex-container{
     display: flex;
-    justify-content: center;
     margin-top: 50px;
+    justify-content: center;
 }
 .about-me-flex-container p{
-    flex-wrap: wrap;
-    margin-top: 100px;
-    margin-right: 100px;
+    margin: 60px 125px;
     inline-size: 400px;
     word-break: break-word;
 }
 .about-me img{
-    border-radius: 40%; 
-    height: 500px;
-    border-left: 5px solid salmon;
+    border-radius: 40%;
     padding: 10px;
+}
+#about-me-img-1{
+    border-left: 5px solid salmon;
+    height: 450px;
 }
 
 

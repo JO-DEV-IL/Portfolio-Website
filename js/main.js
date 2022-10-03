@@ -45,7 +45,7 @@ function moveSkill2() {
     let width = 1
     let id = setInterval(frame, 10)
     function frame() {
-      if (width >= 101) {
+      if (width >= 100) {
         clearInterval(id)
         i = 0;
       } else {
@@ -105,7 +105,7 @@ function moveSkill5() {
     let width = 1
     let id = setInterval(frame, 10)
     function frame() {
-      if (width >= 115){
+      if (width >= 100){
         clearInterval(id)
         i = 0
       }else {

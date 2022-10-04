@@ -32,6 +32,7 @@
         margin-top: 25px;
     }
 
+
     
     .what-i-do .square{
        margin: 25px;
@@ -144,6 +145,9 @@ section:not(.main-title,.main-nav){
     text-decoration: none;
     color: black;
 }
+.email span{
+    margin-left: 10px;
+}
 
 
 /* WHAT I DO */
@@ -203,7 +207,7 @@ section:not(.main-title,.main-nav){
 #myBar1, #myBar2, #myBar3, #myBar4, #myBar5, #myBar6, #myBar7, #myBar8{
     width: 1%;
     height: 30px;
-    background-color: red;
+    background-color: rgb(201, 43, 43);
     border-radius: 25px;
 }
 .why-choose-me button{
@@ -247,7 +251,7 @@ section:not(.main-title,.main-nav){
     color: rgb(129, 129, 233);
 }
 #project1{
-    background-image: url('https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-image: url('https://github.com/JO-DEV-IL/Portfolio-Website/blob/main/img/food-snap.png?raw=true');
     background-size: cover;
     background-position: center;
 }
@@ -257,7 +261,7 @@ section:not(.main-title,.main-nav){
     background-position: center;
 }
 #project3{
-    background-image: url('https://media1.popsugar-assets.com/files/thumbor/MFwccjvKdNIwOjWACarFrPoTEr8/fit-in/1024x1024/filters:format_auto-!!-:strip_icc-!!-/2017/06/26/874/n/38761221/8f29c14b64b2f51f_StockSnap_4F8K4ADXK8.jpg');
+    background-image: url('https://github.com/JO-DEV-IL/Portfolio-Website/blob/main/img/dictionary-snap.png?raw=true');
     background-size: cover;
     background-position: center;
 }

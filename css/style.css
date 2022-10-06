@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo:wght@400;700&display=swap');
 
-@media screen and (max-width: 430px){
+@media screen and (max-width: 780px){
     *{
        flex-wrap: wrap;
        text-align: center;
@@ -18,10 +18,11 @@
     #navbar .email span{
        display: none;
     }
+    .main-title-img{
+        margin: 0 auto;
+    }
     .main-title-img img{
        max-height: 450px;
-       margin-left: 25px;
-       margin-bottom: 25px;
     }
     .main-title-text p{
        font-size: 25px;
@@ -51,6 +52,10 @@
     .project-title{
         display: none;
     }
+    #project1 p, #project2 p, #project3 p, #project4 p, #project5 p, #project6 p{
+        margin-top: 180px;
+    }
+    
 }
 
 

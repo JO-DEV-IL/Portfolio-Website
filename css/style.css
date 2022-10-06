@@ -72,7 +72,7 @@ li{
     background-color: rgb(3, 3, 43);
     color: white;
 }
-section:not(.main-title,.main-nav){
+section:not(.main-title,.main-nav,.contact-form-container){
     padding: 100px 0;
 }
 
@@ -240,7 +240,7 @@ section:not(.main-title,.main-nav){
     width: 500px;
     margin-top: 50px;
 }
-#project1 p, #project2 p, #project3 p, #project4 p, #project5 p{
+#project1 p, #project2 p, #project3 p, #project4 p, #project5 p, #project6 p{
     background-color: rgb(16, 16, 27); 
     opacity: 0.8;
     font-size: 20px;
@@ -266,16 +266,23 @@ section:not(.main-title,.main-nav){
     background-position: center;
 }
 #project4{
-    background-image: url('https://github.com/JO-DEV-IL/Portfolio-Website/blob/main/img/profile-img.jpg?raw=true');
+    background-image: url('https://github.com/JO-DEV-IL/Portfolio-Website/blob/main/img/website-snap.png?raw=true');
     background-size: cover;
     background-position: center;
 }
 #project5{
+    background-image: url('https://github.com/JO-DEV-IL/Portfolio-Website/blob/main/img/tictactoe-snap.png?raw=true');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #00203f;
+    /* Had to fix picture sizing */
+}
+#project6{
     background-image: url('https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
     background-size: cover;
     background-position: center;
 }
-
 
 
 
@@ -309,6 +316,7 @@ section:not(.main-title,.main-nav){
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 50px;
 }
 form{
     display: flex;
@@ -351,6 +359,6 @@ form button{
     color: whitesmoke;
 }
 #dark-mode{
-    background-color: #333;
+    background-color: #222;
     color: whitesmoke;
 }

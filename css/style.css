@@ -47,7 +47,15 @@
         inline-size: 0;
         max-width: 350px;
     }
- }
+
+    .project-title{
+        display: none;
+    }
+}
+
+
+
+
 
 *{
     box-sizing: border-box;
@@ -245,6 +253,7 @@ section:not(.main-title,.main-nav,.contact-form-container){
     opacity: 0.8;
     font-size: 20px;
     color: whitesmoke;
+    max-height: 35px;
 }
 .projects a{
     text-decoration: none;
@@ -256,7 +265,7 @@ section:not(.main-title,.main-nav,.contact-form-container){
     background-position: center;
 }
 #project2{
-    background-image: url('https://i0.wp.com/ssbmtextures.com/wp-content/uploads/2021/03/GLASS-STADIUM-3-e93c5af0.jpg?fit=1500%2C1000&ssl=1');
+    background-image: url('https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
     background-size: cover;
     background-position: center;
 }

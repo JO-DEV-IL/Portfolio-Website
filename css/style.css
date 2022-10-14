@@ -20,6 +20,7 @@
     }
     .main-title-img{
         margin: 0 auto;
+        margin-bottom: 50px;
     }
     .main-title-img img{
        max-height: 450px;
@@ -54,6 +55,10 @@
     }
     #project1 p, #project2 p, #project3 p, #project4 p, #project5 p, #project6 p{
         margin-top: 180px;
+    }
+    .project-squares{
+        width: 90%;
+        margin: 0 auto;
     }
     
 }
@@ -293,9 +298,12 @@ section:not(.main-title,.main-nav,.contact-form-container){
     /* Had to fix picture sizing */
 }
 #project6{
-    background-image: url('https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
-    background-size: cover;
+    background-image: url('https://i.ibb.co/xXDWwcT/blog-snap.png');
+    background-size: contain;
     background-position: center;
+    background-repeat: no-repeat;
+    background-color: #ffecb6;
+    /* Had to fix picture sizing */
 }
 
 

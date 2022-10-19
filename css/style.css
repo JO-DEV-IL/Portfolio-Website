@@ -275,14 +275,16 @@ section:not(.main-title,.main-nav,.contact-form-container){
     background-position: center;
 }
 #project2{
-    background-image: url('https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+    background-image: url('https://github.com/JO-DEV-IL/Portfolio-Website/blob/main/img/dictionary-snap.png?raw=true');
     background-size: cover;
     background-position: center;
 }
 #project3{
-    background-image: url('https://github.com/JO-DEV-IL/Portfolio-Website/blob/main/img/dictionary-snap.png?raw=true');
-    background-size: cover;
+    background-image: url('https://i.ibb.co/xXDWwcT/blog-snap.png');
+    background-size: contain;
     background-position: center;
+    background-repeat: no-repeat;
+    background-color: #ffecb6;
 }
 #project4{
     background-image: url('https://github.com/JO-DEV-IL/Portfolio-Website/blob/main/img/website-snap.png?raw=true');
@@ -295,15 +297,11 @@ section:not(.main-title,.main-nav,.contact-form-container){
     background-position: center;
     background-repeat: no-repeat;
     background-color: #00203f;
-    /* Had to fix picture sizing */
 }
 #project6{
-    background-image: url('https://i.ibb.co/xXDWwcT/blog-snap.png');
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-color: #ffecb6;
-    /* Had to fix picture sizing */
+    background-image: url('https://github.com/JO-DEV-IL/Portfolio-Website/blob/main/img/calculator-snap.png?raw=true');
+    background-size: cover;
+    background-position: top;
 }
 
 

@@ -36,7 +36,7 @@ function moveSkill1() {
   }
 }
 
-// DETERMINATION
+// APIS
 function moveSkill2() {
   let i = 0
   if (i == 0) {
@@ -45,7 +45,7 @@ function moveSkill2() {
     let width = 1
     let id = setInterval(frame, 10)
     function frame() {
-      if (width >= 100) {
+      if (width >= 85) {
         clearInterval(id)
         i = 0;
       } else {
@@ -56,7 +56,7 @@ function moveSkill2() {
   }
 }
 
-// NODE/EX/MONGO
+// NODE
 function moveSkill3() {
   let i = 0
   if (i == 0) {
@@ -76,7 +76,7 @@ function moveSkill3() {
   }
 }
 
-// DAD JOKES
+// EXPRESS/BOOT/EJS/MONGODB/REACT
 function moveSkill4() {
   let i = 0
   if (i == 0) {
@@ -85,7 +85,7 @@ function moveSkill4() {
     let width = 1
     let id = setInterval(frame, 10)
     function frame() {
-      if (width >= 50) {
+      if (width >= 70) {
         clearInterval(id)
         i = 0
       } else {

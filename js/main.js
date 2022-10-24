@@ -56,7 +56,7 @@ function moveSkill2() {
   }
 }
 
-// NODE
+// NODE/EXPRESS
 function moveSkill3() {
   let i = 0
   if (i == 0) {
@@ -76,7 +76,7 @@ function moveSkill3() {
   }
 }
 
-// EXPRESS/BOOT/EJS/MONGODB/REACT
+// BOOT/EJS/MONGODB
 function moveSkill4() {
   let i = 0
   if (i == 0) {
@@ -96,7 +96,7 @@ function moveSkill4() {
   }
 }
 
-// GOOGLE-FU
+// GOOGLE
 function moveSkill5() {
   let i = 0
   if (i == 0){

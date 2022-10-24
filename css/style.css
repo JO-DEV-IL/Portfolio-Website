@@ -53,7 +53,7 @@
     .project-title{
         display: none;
     }
-    #project1 p, #project2 p, #project3 p, #project4 p, #project5 p, #project6 p{
+    #project1 p, #project2 p, #project3 p, #project4 p, #project5 p, #project6 p, #project7 p{
         margin-top: 180px;
     }
     .project-squares{
@@ -180,10 +180,10 @@ section:not(.main-title,.main-nav,.contact-form-container){
 }
 .square{
     border: 2px solid #fffcc9;
-    padding: 75px;
+    padding: 50px;
     margin: auto;
     box-shadow: 5px 5px #fffcc9;
-    width: 300px;
+    width: 500px;
     height: 225px;
 }
 
@@ -258,7 +258,7 @@ section:not(.main-title,.main-nav,.contact-form-container){
     width: 500px;
     margin-top: 50px;
 }
-#project1 p, #project2 p, #project3 p, #project4 p, #project5 p, #project6 p{
+#project1 p, #project2 p, #project3 p, #project4 p, #project5 p, #project6 p,#project7 p{
     background-color: rgb(16, 16, 27); 
     opacity: 0.8;
     font-size: 20px;
@@ -303,7 +303,13 @@ section:not(.main-title,.main-nav,.contact-form-container){
     background-size: cover;
     background-position: top;
 }
-
+#project7{
+    background-image: url('https://i.ibb.co/qBd5VY6/moviedb-snap.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #222;
+}
 
 
 .about-me{

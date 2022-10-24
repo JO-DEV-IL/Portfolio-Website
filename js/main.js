@@ -25,7 +25,7 @@ function moveSkill1() {
     let width = 1
     let id = setInterval(frame, 10)
     function frame() {
-      if (width >= 85){
+      if (width >= 90){
         clearInterval(id)
         i = 0
       }else {
@@ -45,7 +45,7 @@ function moveSkill2() {
     let width = 1
     let id = setInterval(frame, 10)
     function frame() {
-      if (width >= 85) {
+      if (width >= 88) {
         clearInterval(id)
         i = 0;
       } else {
@@ -56,7 +56,7 @@ function moveSkill2() {
   }
 }
 
-// NODE/EXPRESS
+// NODE/EXPRESS/BOOT/EJS
 function moveSkill3() {
   let i = 0
   if (i == 0) {
@@ -76,7 +76,7 @@ function moveSkill3() {
   }
 }
 
-// BOOT/EJS/MONGODB
+// REACT
 function moveSkill4() {
   let i = 0
   if (i == 0) {
@@ -85,7 +85,7 @@ function moveSkill4() {
     let width = 1
     let id = setInterval(frame, 10)
     function frame() {
-      if (width >= 70) {
+      if (width >= 75) {
         clearInterval(id)
         i = 0
       } else {
@@ -125,7 +125,7 @@ function moveSkill6() {
     let width = 1
     let id = setInterval(frame, 10)
     function frame() {
-      if (width >= 85){
+      if (width >= 88){
         clearInterval(id)
         i = 0
       }else {
@@ -136,7 +136,7 @@ function moveSkill6() {
   }
 }
 
-// BEST PRACTICES
+// DOCUMENTATION
 function moveSkill7() {
   let i = 0
   if (i == 0){
@@ -165,7 +165,7 @@ function moveSkill8() {
     let width = 1
     let id = setInterval(frame, 10)
     function frame() {
-      if (width >= 75){
+      if (width >= 80){
         clearInterval(id)
         i = 0
       }else {
@@ -195,7 +195,7 @@ const observer = new IntersectionObserver(entries => {
 observer.observe(document.querySelector('.why-choose-me'));
 
 // DARK MODE OPTION //
-function darkSide() {
-  const body = document.querySelector('body')
-  body.classList.toggle("darkBody")
-  }
+// function darkSide() {
+//   const body = document.querySelector('body')
+//   body.classList.toggle("darkBody")
+//   }
